@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		4B6ADFF01B4F76C6004CA309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ADFEF1B4F76C6004CA309 /* main.m */; };
 		4B6ADFF31B4F76C6004CA309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ADFF21B4F76C6004CA309 /* AppDelegate.m */; };
-		4B6ADFF61B4F76C6004CA309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6ADFF51B4F76C6004CA309 /* ViewController.m */; };
 		4B6ADFF91B4F76C6004CA309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6ADFF71B4F76C6004CA309 /* Main.storyboard */; };
 		4B6ADFFB1B4F76C6004CA309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6ADFFA1B4F76C6004CA309 /* Images.xcassets */; };
 		4B6ADFFE1B4F76C6004CA309 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B6ADFFC1B4F76C6004CA309 /* LaunchScreen.xib */; };
 		4B6AE00A1B4F76C6004CA309 /* SimpleLeftSlideMenu_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE0091B4F76C6004CA309 /* SimpleLeftSlideMenu_iOSTests.m */; };
+		4B6AE01C1B4F76F8004CA309 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE0141B4F76F8004CA309 /* LeftMenuViewController.m */; };
+		4B6AE01D1B4F76F8004CA309 /* ConnectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE0171B4F76F8004CA309 /* ConnectDeviceViewController.m */; };
+		4B6AE01E1B4F76F8004CA309 /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE0191B4F76F8004CA309 /* DeviceInfoViewController.m */; };
+		4B6AE01F1B4F76F8004CA309 /* StoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE01B1B4F76F8004CA309 /* StoreDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		4B6ADFEF1B4F76C6004CA309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B6ADFF11B4F76C6004CA309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B6ADFF21B4F76C6004CA309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B6ADFF41B4F76C6004CA309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B6ADFF51B4F76C6004CA309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B6ADFF81B4F76C6004CA309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B6ADFFA1B4F76C6004CA309 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4B6ADFFD1B4F76C6004CA309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4B6AE0031B4F76C6004CA309 /* SimpleLeftSlideMenu_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLeftSlideMenu_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6AE0081B4F76C6004CA309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6AE0091B4F76C6004CA309 /* SimpleLeftSlideMenu_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLeftSlideMenu_iOSTests.m; sourceTree = "<group>"; };
+		4B6AE0131B4F76F8004CA309 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		4B6AE0141B4F76F8004CA309 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		4B6AE0161B4F76F8004CA309 /* ConnectDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectDeviceViewController.h; sourceTree = "<group>"; };
+		4B6AE0171B4F76F8004CA309 /* ConnectDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectDeviceViewController.m; sourceTree = "<group>"; };
+		4B6AE0181B4F76F8004CA309 /* DeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		4B6AE0191B4F76F8004CA309 /* DeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		4B6AE01A1B4F76F8004CA309 /* StoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDataViewController.h; sourceTree = "<group>"; };
+		4B6AE01B1B4F76F8004CA309 /* StoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,11 @@
 		4B6ADFEC1B4F76C6004CA309 /* SimpleLeftSlideMenu_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4B6AE0131B4F76F8004CA309 /* LeftMenuViewController.h */,
+				4B6AE0141B4F76F8004CA309 /* LeftMenuViewController.m */,
+				4B6AE0151B4F76F8004CA309 /* ViewControllers */,
 				4B6ADFF11B4F76C6004CA309 /* AppDelegate.h */,
 				4B6ADFF21B4F76C6004CA309 /* AppDelegate.m */,
-				4B6ADFF41B4F76C6004CA309 /* ViewController.h */,
-				4B6ADFF51B4F76C6004CA309 /* ViewController.m */,
 				4B6ADFF71B4F76C6004CA309 /* Main.storyboard */,
 				4B6ADFFA1B4F76C6004CA309 /* Images.xcassets */,
 				4B6ADFFC1B4F76C6004CA309 /* LaunchScreen.xib */,
@@ -117,6 +127,19 @@
 				4B6AE0081B4F76C6004CA309 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B6AE0151B4F76F8004CA309 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE0161B4F76F8004CA309 /* ConnectDeviceViewController.h */,
+				4B6AE0171B4F76F8004CA309 /* ConnectDeviceViewController.m */,
+				4B6AE0181B4F76F8004CA309 /* DeviceInfoViewController.h */,
+				4B6AE0191B4F76F8004CA309 /* DeviceInfoViewController.m */,
+				4B6AE01A1B4F76F8004CA309 /* StoreDataViewController.h */,
+				4B6AE01B1B4F76F8004CA309 /* StoreDataViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6ADFF61B4F76C6004CA309 /* ViewController.m in Sources */,
 				4B6ADFF31B4F76C6004CA309 /* AppDelegate.m in Sources */,
+				4B6AE01D1B4F76F8004CA309 /* ConnectDeviceViewController.m in Sources */,
+				4B6AE01F1B4F76F8004CA309 /* StoreDataViewController.m in Sources */,
+				4B6AE01C1B4F76F8004CA309 /* LeftMenuViewController.m in Sources */,
 				4B6ADFF01B4F76C6004CA309 /* main.m in Sources */,
+				4B6AE01E1B4F76F8004CA309 /* DeviceInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
